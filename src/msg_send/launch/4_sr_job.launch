@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="msg_send" type="4_sender_job.py" name="sender" output="screen"/>
+    <node pkg="msg_send" type="4_receiver_job.py" name="receiver" output="screen"/>
+</launch>

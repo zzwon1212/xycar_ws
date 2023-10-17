@@ -1,0 +1,7 @@
+<launch>
+	<node pkg="msg_send" type="5_1_first.py" name="first" output="screen"/>
+	<node pkg="msg_send" type="5_2_second.py" name="second" output="screen"/>
+	<node pkg="msg_send" type="5_3_third.py" name="third" output="screen"/>
+	<node pkg="msg_send" type="5_4_fourth.py" name="fourth" output="screen"/>
+	<node pkg="msg_send" type="5_receiver.py" name="receiver" output="screen"/>
+</launch>
