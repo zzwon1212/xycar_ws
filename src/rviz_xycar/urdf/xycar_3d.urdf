@@ -72,7 +72,7 @@
     <child link="front_right_hinge"/>
     <origin rpy="0 0 0" xyz="0 -0.1425 0"/>
     <axis xyz="0 0 1"/>
-    <limit effort="10" lower="-0.34" 
+    <limit effort="10" lower="-0.34"
                        upper="0.34" velocity="100"/>
   </joint>
   <link name="front_left_hinge">
