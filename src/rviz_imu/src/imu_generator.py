@@ -25,7 +25,7 @@ with open(file_path, 'r') as file:
 imuMSG = Imu()
 imuMSG.header.frame_id = 'map'
 
-rate = rospy.Rate(100)
+rate = rospy.Rate(10)
 seq = 0
 
 for rpy_one in rpy_all:
@@ -40,5 +40,4 @@ for rpy_one in rpy_all:
     imuMSG.orientation.w = quaternion[3]
 
     pub.publish(imuMSG)
-    print(imuMSG)
     rate.sleep()
