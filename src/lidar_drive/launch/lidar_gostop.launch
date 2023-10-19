@@ -1,0 +1,10 @@
+<launch>
+    <include file='$(find xycar_motor)/launch/xycar_motor.launch'/>
+
+    <include file='$(find xycar_lidar)/launch/lidar_noviewer.launch'/>
+
+    <!-- <node name='rosbag_play' pkg='rosbag' type='play' output='screen'
+          required='true' args='$(find rviz_lidar)/src/lidar_topic.bag'/> -->
+
+    <node name='lidar_driver' pkg='lidar_drive' type='lidar_gostop.py' output='screen'/>
+</launch>
