@@ -83,8 +83,6 @@
       "Header header
 int32 angle
 int32 speed
-
-
 ================================================================================
 MSG: std_msgs/Header
 # Standard metadata for higher-level stamped data types.

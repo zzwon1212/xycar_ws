@@ -15,8 +15,6 @@ class xycar_motor(genpy.Message):
   _full_text = """Header header
 int32 angle
 int32 speed
-
-
 ================================================================================
 MSG: std_msgs/Header
 # Standard metadata for higher-level stamped data types.

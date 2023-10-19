@@ -6,7 +6,10 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("my_turtle")
+subdirs("rviz_all")
+subdirs("rviz_lidar")
 subdirs("rviz_xycar")
+subdirs("ultrasonic")
 subdirs("msg_send")
 subdirs("rviz_imu_plugin")
 subdirs("rviz_imu")

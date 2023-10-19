@@ -463,6 +463,12 @@ rostime_DIR:PATH=/opt/ros/melodic/share/rostime/cmake
 rviz_DIR:PATH=/opt/ros/melodic/share/rviz/cmake
 
 //Value Computed by CMake
+rviz_all_BINARY_DIR:STATIC=/home/jiwon/xycar_ws/build/rviz_all
+
+//Value Computed by CMake
+rviz_all_SOURCE_DIR:STATIC=/home/jiwon/xycar_ws/src/rviz_all
+
+//Value Computed by CMake
 rviz_imu_BINARY_DIR:STATIC=/home/jiwon/xycar_ws/build/rviz_imu
 
 //Value Computed by CMake
@@ -476,6 +482,12 @@ rviz_imu_plugin_LIB_DEPENDS:STATIC=general;Qt5::Widgets;general;/opt/ros/melodic
 
 //Value Computed by CMake
 rviz_imu_plugin_SOURCE_DIR:STATIC=/home/jiwon/xycar_ws/src/rviz_imu_plugin
+
+//Value Computed by CMake
+rviz_lidar_BINARY_DIR:STATIC=/home/jiwon/xycar_ws/build/rviz_lidar
+
+//Value Computed by CMake
+rviz_lidar_SOURCE_DIR:STATIC=/home/jiwon/xycar_ws/src/rviz_lidar
 
 //Value Computed by CMake
 rviz_xycar_BINARY_DIR:STATIC=/home/jiwon/xycar_ws/build/rviz_xycar
@@ -506,6 +518,12 @@ tf2_ros_DIR:PATH=/opt/ros/melodic/share/tf2_ros/cmake
 
 //The directory containing a CMake configuration file for tf.
 tf_DIR:PATH=/opt/ros/melodic/share/tf/cmake
+
+//Value Computed by CMake
+ultrasonic_BINARY_DIR:STATIC=/home/jiwon/xycar_ws/build/ultrasonic
+
+//Value Computed by CMake
+ultrasonic_SOURCE_DIR:STATIC=/home/jiwon/xycar_ws/src/ultrasonic
 
 //The directory containing a CMake configuration file for urdf.
 urdf_DIR:PATH=/opt/ros/melodic/share/urdf/cmake
@@ -635,7 +653,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

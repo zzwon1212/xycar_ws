@@ -162,8 +162,6 @@ struct Definition< ::xycar_motor::xycar_motor_<ContainerAllocator> >
     return "Header header\n"
 "int32 angle\n"
 "int32 speed\n"
-"\n"
-"\n"
 "================================================================================\n"
 "MSG: std_msgs/Header\n"
 "# Standard metadata for higher-level stamped data types.\n"

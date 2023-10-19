@@ -1,2 +1,2 @@
-msg_send:my_turtle:rviz_imu:rviz_imu_plugin:rviz_xycar:xycar_motor
+msg_send:my_turtle:rviz_all:rviz_imu:rviz_imu_plugin:rviz_lidar:rviz_xycar:ultrasonic:xycar_motor
 -DCATKIN_DEVEL_PREFIX=/home/jiwon/xycar_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jiwon/xycar_ws/install -G Unix Makefiles
