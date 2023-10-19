@@ -5,7 +5,6 @@
 
   <link name='baseplate'>
     <visual>
-      <!-- <material name='red'/> -->
       <origin rpy='0 0 0' xyz='0 0 0'/>
       <geometry>
         <box size='0.2 0.2 0.07'/>
