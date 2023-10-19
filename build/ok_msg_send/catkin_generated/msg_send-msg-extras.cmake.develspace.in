@@ -1,0 +1,2 @@
+set(msg_send_MESSAGE_FILES "/home/jiwon/xycar_ws/src/ok_msg_send/msg/custom_msg.msg")
+set(msg_send_SERVICE_FILES "")

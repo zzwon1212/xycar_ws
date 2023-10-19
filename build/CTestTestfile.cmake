@@ -1,0 +1,13 @@
+# CMake generated Testfile for 
+# Source directory: /home/jiwon/xycar_ws/src
+# Build directory: /home/jiwon/xycar_ws/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs("gtest")
+subdirs("my_turtle")
+subdirs("rviz_xycar")
+subdirs("msg_send")
+subdirs("rviz_imu_plugin")
+subdirs("rviz_imu")
+subdirs("xycar_motor")
